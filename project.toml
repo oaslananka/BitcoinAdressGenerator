@@ -1,0 +1,15 @@
+
+[tool.poetry]
+name = "bitcoin-address-generator"
+version = "0.1.0"
+description = "A Python script that generates various types of Bitcoin addresses."
+authors = ["Osman ASLAN"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+base58 = "*"
+ellipticcurve = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
